@@ -6,8 +6,8 @@ The MAX32620FTHR board is a rapid development platform designed to help engineer
 battery-optimized solutions with the MAX32620 Arm® Cortex®-M4 microcontroller with FPU. The board also 
 includes the MAX77650 ultra-low power PMIC and MAX17055 fuel gauge to provide efficient power conversion 
 and battery management with minimal board space. The form factor is a small 0.9in x 2.0in dual-row header 
-footprint that is compatible with breadboards and off-theshelf peripheral expansion boards. In addition to 
-the dualrow headers, there are also two 12-pin Pmod™-compatible socket connectors for more expansion 
+footprint that is compatible with breadboards and off-the-shelf peripheral expansion boards. In addition to 
+the dual-row headers, there are also two 12-pin Pmod™-compatible socket connectors for more expansion 
 options. Also on board are common user-interface peripherals including two RGB indicator LEDs and two 
 pushbuttons. These provide a power-optimized flexible platform for quick proofs-of-concept and early 
 software development to enhance time to market.
@@ -19,16 +19,16 @@ other stuff on the board which has to be set properly to use it in a real world 
 
 ## MAX32620FTHR_interrupts
 This example is to demonstrate the interrupt capabilities of the Maxim BSP because there're some minor differences
-compared to the standart Arduino interrupt setup.
+compared to the standard Arduino interrupt setup.
 
 ## MAX32620FTHR_PMIC_analog_multiplexer
 The analog multiplexer in the MAX77650 is able to measure all relevant values like board voltages and currents. This
 is to demonstrate how it works. To use this example one have to populate the resistor R15 with 0 ohm on the board. 
-This connects the ananlog multiplexer output from the MAX77650 to analog input AIN3 of the MAX32620. 
+This connects the analog multiplexer output from the MAX77650 to analog input AIN3 of the MAX32620. 
 
 ## MAX32620FTHR_PMIC_Charge-LED
 In this example the PMIC LEDs are used to show the recent state of the PMIC-Li+-charger. If you connect a battery,
-please be aware that you have to set the propper battery-values to not destroy anything! If the battery is fully
+please be aware that you have to set the proper battery-values to not destroy anything! If the battery is fully
 charged, the green LED will notify about this. If the battery has to be charged and a power supply is present at 
 the USB port, the red LED will signal any charging of the battery.
 
@@ -68,7 +68,7 @@ All versions provide a hardware AES engine. The MAX32621 is provides a secure tr
 (TPU) with a modular arithmetic accelerator (MAA) for fast ECDSA, a hardware PRNG entropy generator, 
 and a secure boot loader. The MAX32620L provides a reduced 1MB of flash memory.
 
-More ressources can be found here:
+More resources can be found here:
 * https://www.maximintegrated.com/en/products/microcontrollers/MAX32620.html
 * https://www.maximintegrated.com/en/products/microcontrollers/MAX32620FTHR.html
 * https://github.com/maximintegratedmicros/arduino-max326xx/wiki/MAX32620FTHR
@@ -88,7 +88,7 @@ on/off controller provides a controlled startup sequence for the regulators and 
 when the devices are on. Numerous factory programmable options allow the device to be tailored for many 
 applications, enabling faster time to market.
 
-More ressources can be found here:
+More resources can be found here:
 * https://www.maximintegrated.com/en/products/power/battery-management/MAX77650.html
 * https://www.maximintegrated.com/en/app-notes/index.mvp/id/6428
 
@@ -110,7 +110,7 @@ The MAX17055 provides precision measurements of current, voltage, and temperatur
 battery pack is measured using an internal temperature measurement or external thermistor. A 2-wire I²C 
 interface provides access to data and control registers. 
 
-More ressources can be found here:
+More resources can be found here:
 * https://www.maximintegrated.com/en/products/power/battery-management/MAX17055.html
 * https://datasheets.maximintegrated.com/en/ds/MAX17055.pdf
 
@@ -145,3 +145,4 @@ We use [SemVer](http://semver.org/) for versioning.
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
