@@ -13,6 +13,11 @@ pushbuttons. These provide a power-optimized flexible platform for quick proofs-
 software development to enhance time to market.
 
 # Examples 
+## Prerequisites
+If you use the MAX32620FTHR board and want to utilize the analog based functions like charger, battery and system 
+current and voltage read-outs, you have to modify your board by deploying R15 with 0 Ohm to route AMUX output 
+from MAX77650 to the AIN of MAX32620.
+
 ## MAX32620FTHR_complete_board-init
 This code shows a complete PMIC initialization example. It handles the PMIC output voltages, LEDs and all
 other stuff on the board which has to be set properly to use it in a real world application.
